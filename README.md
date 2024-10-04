@@ -4,31 +4,35 @@ Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City
 
 # About NEUROSTAT
 
- 
-
-         NEUROSTAT is a software library for neurological and biomedical image analysis that has been developed over the past 2 decades.  The software has been used extensively by clinicians and investigators worldwide (40 countries as of 2015), and their results are published elsewhere.  NEUROSTAT includes programs for both basic research applications (e.g., brain mapping studies, group comparison) and clinical research applications (e.g., three-dimensional stereotactic surface projections, 3D-SSP, for image interpretation, coregistration for ictal-interictal SPECT and MRI-PET/SPECT).  Components of NEUROSTAT can be used for other types of biomedical imaging analyses (e.g., oncology imaging, autoradiographic image analysis).   Custom software using NEUROSTAT library has been created by various investigators, and some of them are available in the public domain.
-
- 
-
-         NEUROSTAT programs are provided free of charge to facilitate scientific applications and collaborations among investigators.  However, please note that all programs are protected strictly by copyrights.  No part of NEUROSTAT programs may be used, transferred, disassembled, or modified in any way without prior written permission.  Although NEUROSTAT programs are provided free, investigations and publications concerning the programs themselves, i.e., program algorithms, programming styles, program coding, and program performance, are not permitted without prior written agreement.
-
- 
-
-         Downloadable software in this page is a subset of the larger software library.  If you have a specific request for certain types of programs or analyses, please contact us by e-mail regarding availability.
+NEUROSTAT is a software library for neurological and biomedical image analysis that has been developed over the past 2 decades.  
+The software has been used extensively by clinicians and investigators worldwide (40 countries as of 2015), and their results are published elsewhere.  
+NEUROSTAT includes programs for both basic research applications (e.g., brain mapping studies, group comparison) and clinical research applications 
+(e.g., three-dimensional stereotactic surface projections, 3D-SSP, for image interpretation, coregistration for ictal-interictal SPECT and MRI-PET/SPECT).  
+Components of NEUROSTAT can be used for other types of biomedical imaging analyses (e.g., oncology imaging, autoradiographic image analysis).  
+Custom software using NEUROSTAT library has been created by various investigators, and some of them are available in the public domain.
 
  
-
-         NEUROSTAT should not be relied upon to solve problems when an incorrect solution could result in injury to a person.  The user assumes all risk and liability associated with the use of NEUROSTAT.  The author of NEUROSTAT disclaims all liability for direct or consequential damages resulting from its use and makes no claims as to the reliability or fitness of NEUROSTAT for any particular use.
-
- 
-
-         To run NEUROSTAT/3D-SSP, you are required to install a valid KEYCODE into the program folder.  KEYCODE is provided free of charge and allows us to keep track of current users.  You may copy KEYCODE for multiple copies of NEUROSTAT/3D-SSP installations.   Please see the section below 'To use NEUROSTAT:  KEYCODE'.  A typical turnaround time for KEYCODE issuing is less than a week.
-
- 
+NEUROSTAT programs are provided free of charge to facilitate scientific applications and collaborations among investigators.  
+However, please note that all programs are protected strictly by copyrights.  
+No part of NEUROSTAT programs may be used, transferred, disassembled, or modified in any way without prior written permission.  
+Although NEUROSTAT programs are provided free, investigations and publications concerning the programs themselves, i.e., program algorithms, programming styles, program coding, 
+and program performance, are not permitted without prior written agreement.
 
  
+Downloadable software in this page is a subset of the larger software library.  If you have a specific request for certain types of programs or analyses, 
+please contact us by e-mail regarding availability.
 
-How to download NEUROSTAT/3D-SSP software
+NEUROSTAT should not be relied upon to solve problems when an incorrect solution could result in injury to a person.  
+The user assumes all risk and liability associated with the use of NEUROSTAT.  
+The author of NEUROSTAT disclaims all liability for direct or consequential damages resulting from its use and makes no claims as to the reliability or fitness of NEUROSTAT for any particular use.
+
+To run NEUROSTAT/3D-SSP, you are required to install a valid KEYCODE into the program folder.  
+KEYCODE is provided free of charge and allows us to keep track of current users.  
+You may copy KEYCODE for multiple copies of NEUROSTAT/3D-SSP installations.   Please see the section below 'To use NEUROSTAT:  KEYCODE'.  
+A typical turnaround time for KEYCODE issuing is less than a week.
+
+
+# How to download NEUROSTAT/3D-SSP software
 
  
 
@@ -52,7 +56,7 @@ How to download NEUROSTAT/3D-SSP software
 
  
 
-3D-SSP Graphical User Interface (Windows version)
+# 3D-SSP Graphical User Interface (Windows version)
 
  
 
