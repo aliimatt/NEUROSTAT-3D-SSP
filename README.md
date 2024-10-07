@@ -1,7 +1,7 @@
 # NEUROSTAT/3D-SSP
 Neuroimaging and Biotechnology Laboratory (NIBTL)  
 Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City, UT, U.S.A.
-
+https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Images/NEUROSTAT.tif
 # About NEUROSTAT
 
 NEUROSTAT is a software library for neurological and biomedical image analysis that has been developed over the past 2 decades.  
