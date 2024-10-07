@@ -1,7 +1,7 @@
 # NEUROSTAT/3D-SSP
 Neuroimaging and Biotechnology Laboratory (NIBTL)  
-Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City, UT, U.S.A.
-https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Images/NEUROSTAT.tif
+Department of Radiology and Imaging Sciences, University of Utah, Salt Lake City, UT, U.S.A.]
+![Alt text](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Images/NEUROSTAT.tif?raw=true "Title")
 # About NEUROSTAT
 
 NEUROSTAT is a software library for neurological and biomedical image analysis that has been developed over the past 2 decades.  
@@ -76,4 +76,5 @@ This GUI can read directly DICOM volume files.  However, please note that PET (a
 
  
 If you succeed the installation and test run, you should see the following output (using iSSP35_Viewer) for visual interpretation of SPECT or PET images.
+![Alt text](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Images/3D-SSP.tif?raw=true "Title")
 
