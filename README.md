@@ -220,29 +220,29 @@ Input codes. [-1] to finish.
 
 Please type in each number provided in the e-mail and hit [RETURN] after each number.  When you finish typing in all numbers, type -1 and then hit [RETURN] to finish. 
 
-EXAMPLE
+# EXAMPLE
 
-Input codes. [-1] to finish.
+   Input codes. [-1] to finish.
 
-23 [RETURN]
+   23 [RETURN]
 
-100 [RETURN]
+   100 [RETURN]
 
-16 [RETURN]
+   16 [RETURN]
 
-.
+   .
+ 
+   .
 
-.
+   .
 
-.
+   .
 
-.
-
--1 [RETURN]
+   -1 [RETURN]
 
   This will create a KEYCODE file in the program directory.  You can confirm the creation of the file by listing files in the program directory (For Mac OSX, LINUX, and SUN OS, type ls.  For MS-DOS, type dir.  For Mac OS9, simply check the content of the program folder by opening it).  If you would like to create multiple copies of the program directory (either on the same workstation or different workstation), you must create this KEYCODE file for each program directory.  This can be done either by simply copying the existing KEYCODE file or by running typekey program again in each new directory.
 
-To begin NEUROSTAT
+# To begin NEUROSTAT
 
 For users who would like to use the GUI version of 3D-SSP for human brain SPECT and PET, please see the section 3D-SSP Graphical User Interface.
 
@@ -264,7 +264,7 @@ To run the batch file, type
 
 You can confirm all preference files including GLOBAL.prf created by this batch process.  These preference files can be viewed using a text editor.
 
-To execute NEUROSTAT programs
+# To execute NEUROSTAT programs
 
   NEUROSTAT programs on Mac OSX, LINUX, SUN OS, DEC, and DOS (Windows Command Prompt) are command-line based.  This means that investigators can perform a program or a combination of programs in a TERMINAL or Command Prompt windows.   For Mac OS9 (Classic and Carbon), a simple graphical user interface is provided since Mac OS9 operation system does not support a TERMINAL or Command windows.
 
