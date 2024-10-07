@@ -175,7 +175,7 @@ Data files created by NEUROSTAT are generally in simple text format.   The conte
 
 # To use NEUROSTAT:  KEYCODE
 
-For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to [NEUROSTAT KEYCODE](mailto:donna.cross@hsc.utah.edu?subject=[NEUROSTAT question]) with the following information.
+For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to [NEUROSTAT KEYCODE](<mailto:donna.cross@hsc.utah.edu?subject=NEUROSTAT%20 question>) with the following information.
 
  
   1) Name of the institution to be registered
