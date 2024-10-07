@@ -173,9 +173,9 @@ NEUROSTAT does not provide software for image 'display' or observer-dependent im
 
 Data files created by NEUROSTAT are generally in simple text format.   The content of these files can be viewed by a common text editor, word processor, or spreadsheet program and edited for further analyses.
 
-To use NEUROSTAT:  KEYCODE
+# To use NEUROSTAT:  KEYCODE
 
-For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to NEUROSTAT KEYCODE with the following information.
+For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to [NEUROSTAT KEYCODE](mailto:donna.cross@hsc.utah.edu?subject=[NEUROSTAT question]) with the following information.
 
  
   1) Name of the institution to be registered
@@ -306,6 +306,6 @@ Further reading
 
 Happy Data Analysis!
 
-Satoshi Minoshima, MD, PhD
+[Satoshi Minoshima, MD, PhD](mailto:sminoshima@hsc.utah.edu?subject=[NEUROSTAT question])
 
-Donna Cross, PhD
+[Donna Cross, PhD](mailto:donna.cross@hsc.utah.edu?subject=[NEUROSTAT question])
