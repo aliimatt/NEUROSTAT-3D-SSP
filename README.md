@@ -306,6 +306,6 @@ Further reading
 
 Happy Data Analysis!
 
-[Satoshi Minoshima, MD, PhD]<mailto:sminoshima@hsc.utah.edu?subject=[NEUROSTAT question]>
+[Satoshi Minoshima, MD, PhD](<mailto:sminoshima@hsc.utah.edu?subject=[NEUROSTAT question]>)
 
-[Donna Cross, PhD]<mailto:donna.cross@hsc.utah.edu?subject=[NEUROSTAT question]>
+[Donna Cross, PhD](<mailto:donna.cross@hsc.utah.edu?subject=[NEUROSTAT question]>)
