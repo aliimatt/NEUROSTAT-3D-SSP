@@ -80,37 +80,29 @@ If you succeed the installation and test run, you should see the following outpu
 
 # NEUROSTAT Command-line Software Library (updated 12/18/2013)
 
- 
+For those who are interested in using NEUROSTAT command-line software library, you will need to download both 1) Program Files and 2) Data Files below.
 
-         For those who are interested in using NEUROSTAT command-line software library, you will need to download both 1) Program Files and 2) Data Files below.
+1) Program Files
 
- 
-
-         1) Program Files
+ NEUROSTAT is available on the following platforms.
 
  
+Mac
+[Mac OS9 Classic (GUI)]()
 
-         NEUROSTAT is available on the following platforms.
+[Mac OS9 & OSX Carbon (GUI or Command line)]()
 
- 
+[Mac OSX Mach-O (Command line)]()
 
-         Mac
-
-         [Mac OS9 Classic (GUI)]()
-
-         [Mac OS9 & OSX Carbon (GUI or Command line)]()
-
-         [Mac OSX Mach-O (Command line)]()
-
-         [Mac OSX Lion (Command line)]()
+[Mac OSX Lion (Command line)]()
 
  
 
-         Linux
+Linux
 
-         [LINUX8 (Red Hat)]()
+[LINUX8 (Red Hat)]()
 
-         [LINUX7 (Red Hat)]()
+[LINUX7 (Red Hat)]()
 
  
 
