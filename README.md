@@ -210,196 +210,104 @@ For Mac OS9 GUI (Classic or Carbon),
  
  TYPE-IN KEYCODE FILE (Version x)
 
-         (opening message)
+(opening message)
 
  
 
-         Input codes. [-1] to finish.
+Input codes. [-1] to finish.
 
  
 
-         Please type in each number provided in the e-mail and hit [RETURN] after each number.  When you finish typing in all numbers, type -1 and then hit [RETURN] to finish. 
+Please type in each number provided in the e-mail and hit [RETURN] after each number.  When you finish typing in all numbers, type -1 and then hit [RETURN] to finish. 
 
- 
+EXAMPLE
 
-         EXAMPLE
+Input codes. [-1] to finish.
 
- 
+23 [RETURN]
 
-         Input codes. [-1] to finish.
+100 [RETURN]
 
-         23 [RETURN]
+16 [RETURN]
 
-         100 [RETURN]
+.
 
-         16 [RETURN]
+.
 
-         .
+.
 
-         .
+.
 
-         .
+-1 [RETURN]
 
-         .
-
-         -1 [RETURN]
-
- 
-
-         This will create a KEYCODE file in the program directory.  You can confirm the creation of the file by listing files in the program directory (For Mac OSX, LINUX, and SUN OS, type ls.  For MS-DOS, type dir.  For Mac OS9, simply check the content of the program folder by opening it).  If you would like to create multiple copies of the program directory (either on the same workstation or different workstation), you must create this KEYCODE file for each program directory.  This can be done either by simply copying the existing KEYCODE file or by running typekey program again in each new directory.
-
- 
-
- 
+  This will create a KEYCODE file in the program directory.  You can confirm the creation of the file by listing files in the program directory (For Mac OSX, LINUX, and SUN OS, type ls.  For MS-DOS, type dir.  For Mac OS9, simply check the content of the program folder by opening it).  If you would like to create multiple copies of the program directory (either on the same workstation or different workstation), you must create this KEYCODE file for each program directory.  This can be done either by simply copying the existing KEYCODE file or by running typekey program again in each new directory.
 
 To begin NEUROSTAT
 
- 
+For users who would like to use the GUI version of 3D-SSP for human brain SPECT and PET, please see the section 3D-SSP Graphical User Interface.
 
-         For users who would like to use the GUI version of 3D-SSP for human brain SPECT and PET, please see the section 3D-SSP Graphical User Interface.
+ The NEUROSTAT programs consist of executable program files, preference files, and data files.  The preference files for each program (if required) will be created automatically when the program is executed for the first time.  Preference files determine the behavior of the programs and can be modified by the investigator.  The programs, preference files, and data files are stored preferably together in the dedicated program directory (or folder) created above.  However, customized preference and data files can be stored in individual investigatorsÕ directories, different from the program directory and specified by an option -p for a custom preference file.  This function will be discussed in detail in the NEUROSTAT manual.
 
- 
+ To create preference files of all programs at once, there is a batch file init.bat included in the Data Files for the platforms, Mac OSX, LINUX, SUN OS, and DOS-Window.  For Mac OS9 (GUI), the investigator has to click each program icon manually.
 
-         The NEUROSTAT programs consist of executable program files, preference files, and data files.  The preference files for each program (if required) will be created automatically when the program is executed for the first time.  Preference files determine the behavior of the programs and can be modified by the investigator.  The programs, preference files, and data files are stored preferably together in the dedicated program directory (or folder) created above.  However, customized preference and data files can be stored in individual investigatorsÕ directories, different from the program directory and specified by an option -p for a custom preference file.  This function will be discussed in detail in the NEUROSTAT manual.
 
- 
+Before running this batch file on Mac OSX, LINUX, and SUN OS, please change a file permission to executable
 
-         To create preference files of all programs at once, there is a batch file init.bat included in the Data Files for the platforms, Mac OSX, LINUX, SUN OS, and DOS-Window.  For Mac OS9 (GUI), the investigator has to click each program icon manually.
+chmod +x init.bat [RETURN]
 
- 
+To run the batch file, type
 
-         Before running this batch file on Mac OSX, LINUX, and SUN OS, please change a file permission to executable
+./init.bat [RETURN]
 
- 
+(or init.bat without ./ for DOS)
 
-         chmod +x init.bat [RETURN]
 
- 
-
-         To run the batch file, type
-
- 
-
-         ./init.bat [RETURN]
-
- 
-
-         (or init.bat without ./ for DOS)
-
- 
-
-         You can confirm all preference files including GLOBAL.prf created by this batch process.  These preference files can be viewed using a text editor.
-
- 
-
- 
+You can confirm all preference files including GLOBAL.prf created by this batch process.  These preference files can be viewed using a text editor.
 
 To execute NEUROSTAT programs
 
- 
+  NEUROSTAT programs on Mac OSX, LINUX, SUN OS, DEC, and DOS (Windows Command Prompt) are command-line based.  This means that investigators can perform a program or a combination of programs in a TERMINAL or Command Prompt windows.   For Mac OS9 (Classic and Carbon), a simple graphical user interface is provided since Mac OS9 operation system does not support a TERMINAL or Command windows.
 
-         NEUROSTAT programs on Mac OSX, LINUX, SUN OS, DEC, and DOS (Windows Command Prompt) are command-line based.  This means that investigators can perform a program or a combination of programs in a TERMINAL or Command Prompt windows.   For Mac OS9 (Classic and Carbon), a simple graphical user interface is provided since Mac OS9 operation system does not support a TERMINAL or Command windows.
+  a) For Mac OS9 (Classic or Carbon), please click a program icon.  This will evoke a small GUI window (see above).  The investigator can type in command-line parameters in the ÔArgumentÕ window and then click [OK] to execute the program.   If [OK] is clicked without arguments, the program will print out the instruction for command-line arguments and options available for the program.
 
- 
+ There are two programs, batchjobber and batchwait, provided specifically for Mac OS9 platform.  These programs allow investigators to use text scripts that execute sequentially multiple programs in the Mac OS9 environment.  Please see the NEUROSTAT manual how to use these programs.
 
-         
+ b) For a command-line based platform (Mac OSX, SUN OS, LINUX, DEC, and DOS-Windows Command Prompt), type a program name followed by arguments for the program and, then, [RETRUN] to execute the program.  For example, to run coreg program,
 
- 
 
-         a) For Mac OS9 (Classic or Carbon), please click a program icon.  This will evoke a small GUI window (see above).  The investigator can type in command-line parameters in the ÔArgumentÕ window and then click [OK] to execute the program.   If [OK] is clicked without arguments, the program will print out the instruction for command-line arguments and options available for the program.
+For Mac OSX, SUN OS, LINUX, and DEC,
 
- 
+ ./coreg spect1.img spect2.img output [RETURN]
 
-         There are two programs, batchjobber and batchwait, provided specifically for Mac OS9 platform.  These programs allow investigators to use text scripts that execute sequentially multiple programs in the Mac OS9 environment.  Please see the NEUROSTAT manual how to use these programs.
+For DOS-Windows Command Prompt,
 
- 
+coreg.exe spect1.img spect2.img output [RETRUN]
 
-         b) For a command-line based platform (Mac OSX, SUN OS, LINUX, DEC, and DOS-Windows Command Prompt), type a program name followed by arguments for the program and, then, [RETRUN] to execute the program.  For example, to run coreg program,
+Please note that there is ./ in front of the program name on UNIX-based command line (this can be omitted on some platforms), and .exe at the end of the program name on DOS-Window Command Prompt.
 
- 
+ To test run NEUROSTAT
 
-         For Mac OSX, SUN OS, LINUX, and DEC,
+  In the Data Files, there are imaging data included for a test run of NEUROSTAT programs.  A shell file, ssp_bin is provided for the command-line based platforms including Mac OSX, LINUX, SUN OS, DEC, and DOS-Window.  Unfortunately, this test script cannot be used on Mac OS9 (however, it is possible to write a similar script and use batchjobber to execute).
 
- 
+  To run this test script,  please type the following command in the TERMIAL (or Command Prompt) window.
+  ./ssp_bin testspectB [RETURN] (UNIX-based)
+  or
+  rename 'ssp_bin' to 'ssp_bin.bat' (rename ssp_bin ssp_bin.bat)
 
-         ./coreg spect1.img spect2.img output [RETURN]
+  ssp_bin.bat testspectB [RETURN] (DOS-Windows Command Prompt)
 
- 
+  This will analyze sample imaging data, testspectB.img (and a corresponding header file, testspectB.hdr), using 3D-SSP routines and write out several TIFF files as results.  TIFF files can be viewed by a common image viewer provided for each platform.
 
-         For DOS-Windows Command Prompt,
-
- 
-
-         coreg.exe spect1.img spect2.img output [RETRUN]
-
- 
-
-         Please note that there is ./ in front of the program name on UNIX-based command line (this can be omitted on some platforms), and .exe at the end of the program name on DOS-Window Command Prompt.
-
- 
-
- 
-
-To test run NEUROSTAT
-
- 
-
-         In the Data Files, there are imaging data included for a test run of NEUROSTAT programs.  A shell file, ssp_bin is provided for the command-line based platforms including Mac OSX, LINUX, SUN OS, DEC, and DOS-Window.  Unfortunately, this test script cannot be used on Mac OS9 (however, it is possible to write a similar script and use batchjobber to execute).
-
- 
-
-         To run this test script,  please type the following command in the TERMIAL (or Command Prompt) window.
-
- 
-
-         ./ssp_bin testspectB [RETURN] (UNIX-based)
-
- 
-
-         or
-
- 
-
-         rename 'ssp_bin' to 'ssp_bin.bat' (rename ssp_bin ssp_bin.bat)
-
-         ssp_bin.bat testspectB [RETURN] (DOS-Windows Command Prompt)
-
- 
-
-         This will analyze sample imaging data, testspectB.img (and a corresponding header file, testspectB.hdr), using 3D-SSP routines and write out several TIFF files as results.  TIFF files can be viewed by a common image viewer provided for each platform.
-
- 
-
-         The content of ssp_bin can be viewed using a text editor.  This will provide an example of NEUROSTAT scripts.  Complex or repeat image analysis tasks can be completely automated by writing a text script for NEUROSTAT programs.  The analyses can then be incorporated in various applications and routine image processing.
-
- 
-
- 
+  The content of ssp_bin can be viewed using a text editor.  This will provide an example of NEUROSTAT scripts.  Complex or repeat image analysis tasks can be completely automated by writing a text script for NEUROSTAT programs.  The analyses can then be incorporated in various applications and routine image processing.
 
 Further reading
+   The most recent (but outdated) manual for the command-line version of NEUROSTAT can be downloaded for your reference ("Neurostat Manual").  Please note that some descriptions are outdated in this manual.
 
- 
+  To contact us
+  For questions regarding NEUROSTAT programs, please contact us by email.  For trouble shooting, please attach a screen capture or an output message from the program, if possible.  Further information regarding NEUROSTAT/3D-SSP programs will be provided through this web page.
 
-         The most recent (but outdated) manual for the command-line version of NEUROSTAT can be downloaded for your reference ("Neurostat Manual").  Please note that some descriptions are outdated in this manual.
+Happy Data Analysis!
 
- 
+Satoshi Minoshima, MD, PhD
 
- 
-
-To contact us
-
- 
-
-         For questions regarding NEUROSTAT programs, please contact us by email.  For trouble shooting, please attach a screen capture or an output message from the program, if possible.  Further information regarding NEUROSTAT/3D-SSP programs will be provided through this web page.
-
- 
-
-         Happy Data Analysis!
-
- 
-
-         Satoshi Minoshima, MD, PhD
-
-         Donna Cross, PhD
-
-
+Donna Cross, PhD
