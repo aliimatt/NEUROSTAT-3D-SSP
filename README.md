@@ -135,15 +135,15 @@ Please create a folder or directory (e.g., NEUROSTAT) and place all programs in 
 
 NEUROSTAT uses several data files.  Some of these files are platform specific.  Text files are also specific to the platforms.
 
-[Mac OS9]()
+[Mac OS9](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Data/DATAMacOS9.sit)
 
-[Mac OSX]()
+[Mac OSX](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Data/DATAMacOSX.sit)
 
-[LINUX]()            
+[LINUX](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Data/DATALINUXRedHat.gz)            
 
-[SUN OS]()
+[SUN OS](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Data/DATASUNOS.Z)
 
-[DOS-Windows]()                              
+[DOS-Windows](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Data/DATADOSWin32.zip)                              
 
 [DEC (upon request)]()
 
