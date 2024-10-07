@@ -89,32 +89,30 @@ For those who are interested in using NEUROSTAT command-line software library, y
  
 Mac
 
-[Mac OS9 Classic (GUI)]()
+[Mac OS9 Classic (GUI)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOS9Classic.sit)
 
-[Mac OS9 & OSX Carbon (GUI or Command line)]()
+[Mac OS9 & OSX Carbon (GUI or Command line)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSCarbon.sit)
 
-[Mac OSX Mach-O (Command line)]()
+[Mac OSX Mach-O (Command line)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSXMachO.sit)
 
-[Mac OSX Lion (Command line)]()
+[Mac OSX Lion (Command line)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/MacOSXLion.zip)
 
  
 
 Linux
 
-[LINUX8 (Red Hat)]()
+[LINUX8 (Red Hat)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/LINUXRedHat8.gz)
 
-[LINUX7 (Red Hat)]()
+[LINUX7 (Red Hat)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/LINUXRedHat7.gz)
 
-[SunOS (old Sparc Station)]()
+[SunOS (old Sparc Station)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/SUNOS.Z)
 
-[SUN OS (SPARC)]()
+[SUN OS (SPARC)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/SUNOS.Z)
 
 
 Windows Command Line/DOS
 
-DOS-Windows (Command line)
-
- 
+[DOS-Windows (Command line)](https://github.com/aliimatt/NEUROSTAT-3D-SSP/blob/main/Programs/DOSWin32.zip)
 
 DEC (upon request)
 
