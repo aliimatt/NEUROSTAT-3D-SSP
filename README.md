@@ -88,6 +88,7 @@ For those who are interested in using NEUROSTAT command-line software library, y
 
  
 Mac
+
 [Mac OS9 Classic (GUI)]()
 
 [Mac OS9 & OSX Carbon (GUI or Command line)]()
@@ -104,183 +105,110 @@ Linux
 
 [LINUX7 (Red Hat)]()
 
- 
+[SunOS (old Sparc Station)]()
 
-         [SunOS (old Sparc Station)]()
+[SUN OS (SPARC)]()
 
-         [SUN OS (SPARC)]()
 
- 
+Windows Command Line/DOS
 
-         Windows Command Line/DOS
-
-         DOS-Windows (Command line)
+DOS-Windows (Command line)
 
  
 
-         DEC (upon request)
+DEC (upon request)
 
  
 
-         To download, please click the program archive for your platform. 
+To download, please click the program archive for your platform. 
+
+a) Mac OSX Mach-O is a version compatible with a UNIX terminal on Mac OSX (pre-Lion OS).  "Mac OSX Lion" is a version compatible with Mac OSX Lion.  DOS (Windows) is a version compatible with a MS-DOS and Command Prompt terminal on Windows.  We encourage investigators to use these command-line based programs on Macintosh and PC because image analyses can be fully automated by creating shell and batch files.  LINUX, SUN OS, and DEC are also command-line based.
+
+b) .sit and .zip files can be uncompressed by the operation system software or freeware such as Stuffit Expander.
+
+c) For SUN OS, please use uncompress SUNOS.zip first, and then tar xvpf SUNOS to unarchive programs.
+
+d) For LINUX, please use gunzip LINUXRedHat8.gz first, and then tar xvpf LINUXRedHat8 to unarchive programs.
+
+ 
+Please create a folder or directory (e.g., NEUROSTAT) and place all programs in this folder or directory.
+
+2) Data Files
+
+NEUROSTAT uses several data files.  Some of these files are platform specific.  Text files are also specific to the platforms.
+
+[Mac OS9]()
+
+[Mac OSX]()
+
+[LINUX]()            
+
+[SUN OS]()
+
+[DOS-Windows]()                              
+
+[DEC (upon request)]()
+
+To download, please click the data archive for your platform. 
+
+a) .sit and .zip files can be uncompressed by the operation system software or freeware such as Stuffit Expander.
+
+b) For SUN OS, please use uncompress DATASUNOS.Z first, and then tar xvpf DATASUNOS to unarchive programs.
+
+c) For LINUX, please use gunzip DATALINUXRedHat.gz first, and then tar xvpf DATALINUXRedHat to unarchive programs.
+
+ 
+Please place all data files in the same directory created for the NEUROSTAT program files.
+
+3) Image Display Software
 
  
 
-         a) Mac OSX Mach-O is a version compatible with a UNIX terminal on Mac OSX (pre-Lion OS).  "Mac OSX Lion" is a version compatible with Mac OSX Lion.  DOS (Windows) is a version compatible with a MS-DOS and Command Prompt terminal on Windows.  We encourage investigators to use these command-line based programs on Macintosh and PC because image analyses can be fully automated by creating shell and batch files.  LINUX, SUN OS, and DEC are also command-line based.
+NEUROSTAT does not provide software for image 'display' or observer-dependent image analysis routines.
+
+  Images processed by NEUROSTAT are generally in a simple binary format (default, signed short integer, image matrix and pixel sizes described in a header).  These images can be viewed by common image display / analysis software such as Image J (NIH).   Alternatively, there are several commercial software packages that can display images in various image formats.
 
  
+ NEUROSTAT also includes a binary-tiff conversion program (cnvttiff).  Images processed by NEUROSTAT can be converted to TIFF files that can be viewed by a default image viewer provided for each computer platform.
 
-         b) .sit and .zip files can be uncompressed by the operation system software or freeware such as Stuffit Expander.
+ It is also straightforward to write image-format conversion programs for NEUROSTAT so that resulting images can be reconverted to their original format.  Reconverted images can, then, be displayed on the original imaging workstation.  Conversion programs for CTI6 format (a format being used for Siemens/CTI PET scanner) are included (cnvtbic6 & cnvtc6bi).
 
- 
-
-         c) For SUN OS, please use uncompress SUNOS.zip first, and then tar xvpf SUNOS to unarchive programs.
-
- 
-
-         d) For LINUX, please use gunzip LINUXRedHat8.gz first, and then tar xvpf LINUXRedHat8 to unarchive programs.
-
- 
-
-         Please create a folder or directory (e.g., NEUROSTAT) and place all programs in this folder or directory.
-
- 
-
- 
-
-         2) Data Files
-
- 
-
-         NEUROSTAT uses several data files.  Some of these files are platform specific.  Text files are also specific to the platforms.
-
- 
-
-         Mac OS9
-
-         Mac OSX
-
-         LINUX            
-
-         SUN OS
-
-         DOS-Windows                              
-
-         DEC (upon request)
-
- 
-
-         To download, please click the data archive for your platform. 
-
- 
-
-         a) .sit and .zip files can be uncompressed by the operation system software or freeware such as Stuffit Expander.
-
- 
-
-         b) For SUN OS, please use uncompress DATASUNOS.Z first, and then tar xvpf DATASUNOS to unarchive programs.
-
- 
-
-         c) For LINUX, please use gunzip DATALINUXRedHat.gz first, and then tar xvpf DATALINUXRedHat to unarchive programs.
-
- 
-
-         Please place all data files in the same directory created for the NEUROSTAT program files.
-
- 
-
- 
-
-         3) Image Display Software
-
- 
-
-         NEUROSTAT does not provide software for image 'display' or observer-dependent image analysis routines.
-
- 
-
-         Images processed by NEUROSTAT are generally in a simple binary format (default, signed short integer, image matrix and pixel sizes described in a header).  These images can be viewed by common image display / analysis software such as Image J (NIH).   Alternatively, there are several commercial software packages that can display images in various image formats.
-
- 
-
-         NEUROSTAT also includes a binary-tiff conversion program (cnvttiff).  Images processed by NEUROSTAT can be converted to TIFF files that can be viewed by a default image viewer provided for each computer platform.
-
- 
-
-         It is also straightforward to write image-format conversion programs for NEUROSTAT so that resulting images can be reconverted to their original format.  Reconverted images can, then, be displayed on the original imaging workstation.  Conversion programs for CTI6 format (a format being used for Siemens/CTI PET scanner) are included (cnvtbic6 & cnvtc6bi).
-
- 
-
-         Data files created by NEUROSTAT are generally in simple text format.   The content of these files can be viewed by a common text editor, word processor, or spreadsheet program and edited for further analyses.
-
- 
-
- 
+Data files created by NEUROSTAT are generally in simple text format.   The content of these files can be viewed by a common text editor, word processor, or spreadsheet program and edited for further analyses.
 
 To use NEUROSTAT:  KEYCODE
 
- 
-
-         For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to NEUROSTAT KEYCODE with the following information.
+For the purpose of regular software updates and user communication, NEUROSTAT programs require a valid KEYCODE.   Please send keycode requests to NEUROSTAT KEYCODE with the following information.
 
  
+  1) Name of the institution to be registered
+  2) Name of the primary investigator (or contact person)
+  3) Title of the primary investigator
+  4) Affiliation (i.e., department) of the primary investigator
+  5) Mailing address
+  6) Phone number
+  7) Fax number
+  8) Email address
+  9) Computer platform & Operating system
 
-         1) Name of the institution to be registered
+In return, you will receive a set of numbers or a binary KEYCODE file by e-mail in a few days.  The program typekey uses these numbers to generate a KEYCODE file specific to your institution.
+To create a KEYCODE file, change the current directory to the program directory created above.  To start the keycode generation program typekey,  please type,
 
-         2) Name of the primary investigator (or contact person)
+In the TERMIAL window (Mac OSX, LINUX, and SUN OS),
 
-         3) Title of the primary investigator
+ ./typekey [RETURN]
 
-         4) Affiliation (i.e., department) of the primary investigator
+ In the DOS prompt (DOS, Windows Command Prompt),
 
-         5) Mailing address
+ typekey.exe [RETURN]
 
-         6) Phone number
+For Mac OS9 GUI (Classic or Carbon),
 
-         7) Fax number
+ Click the program icon typekey
+ The following message will appear on the screen.
 
-         8) Email address
-
-         9) Computer platform & Operating system
-
+ OUTPUT
  
-
-         In return, you will receive a set of numbers or a binary KEYCODE file by e-mail in a few days.  The program typekey uses these numbers to generate a KEYCODE file specific to your institution.
-
- 
-
-         To create a KEYCODE file, change the current directory to the program directory created above.  To start the keycode generation program typekey,  please type,
-
- 
-
-         In the TERMIAL window (Mac OSX, LINUX, and SUN OS),
-
-         ./typekey [RETURN]
-
- 
-
-         In the DOS prompt (DOS, Windows Command Prompt),
-
-         typekey.exe [RETURN]
-
- 
-
-         For Mac OS9 GUI (Classic or Carbon),
-
-         Click the program icon typekey
-
- 
-
-         The following message will appear on the screen.
-
- 
-
-         OUTPUT
-
- 
-
-         TYPE-IN KEYCODE FILE (Version x)
+ TYPE-IN KEYCODE FILE (Version x)
 
          (opening message)
 
